@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main id="container">
+        <h1>
+            Quick Tip
+            <span class="tipMood">🙂</span>
+        </h1>
+
+        <section>
+            <div class="df">
+                <label for="yourBill">Bill:</label>
+                <input type="number" placeholder="Type bill" id="yourBill">
+            </div>
+
+            <div>
+                <div class="df">
+                    <label for="tipInput">Select tip</label>
+                    <span id="tipPercent">0%</span>
+                </div>
+                <div>
+                    <input type="range" value="0" id="tipInput" class="range">
+                </div>
+            </div>
+
+            <div class="df">
+                <span>Tip</span>
+                <span id="tipValue">$0.00</span>
+            </div>
+
+            <hr>
+
+            <div class="df bold">
+                <span>Total</span>
+                <span id="totalWithTip">$0.00</span>
+            </div>
+        </section>
+
+        <section>
+            <div class="df">
+                <label for="splitInput">Split</label>
+                <span id="splitValue">1 Person</span>
+            </div>
+
+            <div>
+                <input type="range" min="1" max="10" value="1" id="splitInput" class="range">
+            </div>
+
+            <div class="df">
+                <span>Bill each</span>
+                <span id="billEach">$0.00</span>
+            </div>
+
+            <div class="df">
+                <span>Tip each</span>
+                <span id="tipEach">$0.00</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        This project is a part of the <a href="https://fun-javascript-projects.com/">course</a> by <a href="https://twitter.com/chrisdixon161">Chris Dixon</a>. Re-coded by <a href="https://twitter.com/TutulDevs">Tutul</a>.
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
