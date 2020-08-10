@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 207.23 243" version="1.1">
+  <g id="layer1" stroke="#fff" stroke-width="1px" fill="none" transform="translate(-193.42 -362.29)">
+    <path id="path2996" d="m297.41 398.48-1.5681-8.363 3.6588-6.2722 0.52268-5.2268v-6.2722l-3.6588-5.7495-5.2268-3.1361-10.454-0.52268-8.8856 3.6588-2.0907 5.2268-1.0454 7.3176v1.568l-3.1361 3.6588 4.1815 2.6134v6.2722l-0.52268 5.7495 2.0907 1.5681h4.7042l1.0454 2.6134z"/>
+    <path id="path2998" d="m296.88 398.48-19.339 5.2268-0.52268 10.454-2.6134 8.8856 8.8856 19.862-7.8403 7.8403 0.52269 24.044-20.385 2.0907 1.568 36.588 13.59-0.52269h10.976l7.3176-2.6134 8.8856 12.022 10.976 12.544 16.726-5.7495 10.976-6.2722-5.7495-16.203-6.2722-5.7495 0.52268-10.976-3.6588-14.635-6.2722-9.4083-4.1815-3.6588-1.568-6.2722v-12.544l0.52268-10.454-0.52268-7.8403v-5.2268l12.544 0.52268 2.6134-8.363 3.1361-5.2268-13.067-5.7495-7.3176-1.568-3.6588 1.0454z"/>
+    <path id="path3000" d="m273.36 423.05-6.7949 3.6588-3.6588 2.6134-5.7495-6.7949-6.2722-7.3176v-5.2268l-1.5681-9.931-5.7495-7.3176-4.7042-0.52269h-4.7042l-2.6134 5.7495 1.0454 4.7042 0.52268 3.6588 1.0454 3.6588 1.0454 5.2268 7.3176 4.1815 6.2722 14.635 7.3176 11.499 6.2722 6.7949 7.3176 2.6134h5.7495l2.0907-4.7042 6.7949-6.7949z"/>
+    <path id="path3002" d="m326.16 406.32-5.7495 14.112 8.8856 6.7949 5.2268 9.931 3.6588 7.3176 3.1361 5.7495 5.7495 1.568 9.931 1.5681 1.0454-7.3176-5.7495-6.7949h-4.7042l-6.2722-6.7949-2.0907-4.7042-3.6588-9.931-1.568-4.1815z"/>
+    <path id="path3004" d="m255.07 476.89-11.499 6.7949-10.454 9.4083-5.7495 3.6588-6.7949 4.1815 1.0454 14.635v11.499l4.1815 14.635 3.1361 14.635v16.203l-12.544 7.8403-21.43 0.52268-1.0454 4.7042 1.0454 5.2268 41.292-1.568 10.454-0.52269v-10.454l-7.8403-2.6134-1.0454-18.294 1.568-11.499 1.0454-22.475 1.0454-8.363 15.158-3.1361z"/>
+    <path id="path3006" d="m334.52 523.41-24.566 12.544 10.976 9.931 5.7495 9.4083h8.8856l17.249 6.2722 15.158 6.7949 15.158 6.7949 4.7042 3.6588 5.2268 24.566h6.7949l-0.52269-18.817-1.0454-12.544h-11.499l-12.544-13.59-14.635-14.112-7.3176-4.1815h-7.3176l-7.8403-6.2722z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>run 3</dc:title>
+        <dc:date>2013-09-21T12:22:52</dc:date>
+        <dc:description>runner outline</dc:description>
+        <dc:source>http://openclipart.org/detail/183635/run-3-by-bipinmobile-183635</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>bipinmobile</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>athlete</rdf:li>
+            <rdf:li>run</rdf:li>
+            <rdf:li>runner</rdf:li>
+            <rdf:li>sport</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
