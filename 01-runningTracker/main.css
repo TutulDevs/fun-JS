@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +9,11 @@ html {
 
 body {
   background: #2D3740;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.6; }
+  color: #e0faff;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  letter-spacing: 1px; }
 
 ul {
   list-style: none; }
@@ -28,7 +30,6 @@ main {
   margin: 2rem auto;
   padding: 1rem; }
   main .img-box {
-    overflow: hidden;
     padding: 1rem 0; }
     main .img-box img {
       width: 50%;
@@ -36,8 +37,9 @@ main {
       margin: 1rem auto 2rem auto;
       display: block;
       filter: drop-shadow(0 0 0.5rem #0AD9FF);
-      transform: rotate(-5deg);
-      animation: runner 2s ease-in-out 1; }
+      transform: rotateY(180deg);
+      animation: runner 2s 1;
+      animation-timing-function: steps(4, end); }
   main .form {
     border-bottom: 2px solid #0AD9FF;
     padding: 2rem;
@@ -49,14 +51,19 @@ main {
     main .form__input {
       width: 80%;
       padding: 0.5rem 1rem;
-      text-align: center; }
+      text-align: center;
+      outline-color: #0AD9FF;
+      font-family: 'Teko', sans-serif; }
     main .form__button {
       width: 6rem;
       height: 6rem;
       border-radius: 50%;
       border: 0;
       background: #0AD9FF;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: 'Teko', sans-serif;
+      font-size: 2rem;
+      color: #1C262F; }
   main .entries {
     text-align: center; }
     main .entries h3 {
@@ -70,7 +77,7 @@ main {
         border: 1px solid #ccc;
         padding: 1rem 0; }
   main .data div {
-    background: #141C22;
+    background: #2D3740;
     margin: 1rem 0;
     padding: 1rem 1rem;
     display: flex;
@@ -86,21 +93,32 @@ main {
       width: 20rem;
       height: 20rem;
       border-radius: 50%;
-      background: salmon;
+      background: #2D3740;
       display: grid;
       place-items: center; }
     main .progress__container--center {
       width: 18rem;
       height: 18rem;
       border-radius: 50%;
-      background: #1C262F; }
+      background: #1C262F;
+      font-size: 2.5rem;
+      display: grid;
+      place-items: center; }
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #cecccc;
+  width: 100%; }
+  footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none; }
 
 @keyframes runner {
   0% {
-    transform: rotate(-5deg) translateX(-150%); }
-  80% {
-    transform: rotate(-5deg) translateX(10%); }
+    transform: rotateY(180deg) translateX(250%); }
   100% {
-    transform: rotate(-5deg) translateX(0%); } }
+    transform: rotateY(180deg) translateX(0%); } }
 
 /*# sourceMappingURL=main.css.map */

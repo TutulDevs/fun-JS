@@ -7,4 +7,5 @@
 
 
 * Quick Tip [Live](https://codepen.io/TutulDevs/full/yLONyxd) 
-* Running Tracker (yet to do)
+* Running Tracker [Live](https://codepen.io/TutulDevs/full/GRZprWV)
+* Guess The Number (yet to be done)

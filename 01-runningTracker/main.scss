@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
 
+$blue: #0AD9FF;
+$black: #2D3740;
+$black-top: #1C262F;
+$text: #e0faff;
+
+@mixin centering {
+    display: grid;
+    place-items: center;
+}
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +20,12 @@ html {
 }
 
 body {
-    background: #2D3740;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 1.5rem;
+    background: $black;
+    color: $text;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.7rem;
     line-height: 1.6;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -26,7 +37,7 @@ section {
 }
 
 main {
-    background: #1C262F;
+    background: $black-top;
     width: 90%;
     max-width: 50rem;
     min-height: 65rem;
@@ -35,7 +46,7 @@ main {
 
     .img-box {  
         //background: #2D3740;
-        overflow: hidden;
+        //overflow: hidden;
         padding: 1rem 0;
         img {
             width: 50%;
@@ -43,13 +54,14 @@ main {
             margin: 1rem auto 2rem auto;
             display: block;
             filter: drop-shadow(0 0 0.5rem #0AD9FF);
-            transform: rotate(-5deg);
-            animation: runner 2s ease-in-out 1;
+            transform: rotateY(180deg);
+            animation: runner 2s 1;
+            animation-timing-function: steps(4, end)
         }
     }
 
     .form {
-        border-bottom: 2px solid #0AD9FF;
+        border-bottom: 2px solid $blue;
         padding: 2rem;
         display: grid;
         gap: 1rem;
@@ -61,14 +73,19 @@ main {
             width: 80%;
             padding: 0.5rem 1rem;
             text-align: center;
+            outline-color: $blue;
+            font-family: 'Teko', sans-serif;
         }
         &__button {
             width: 6rem;
             height: 6rem;
             border-radius: 50%;
             border: 0;
-            background: #0AD9FF;
+            background: $blue;
             font-weight: bold;
+            font-family: 'Teko', sans-serif;
+            font-size: 2rem;
+            color: $black-top;
         }
     }
 
@@ -95,7 +112,7 @@ main {
 
     .data {
         div {
-            background: #141C22;
+            background: $black;
             margin: 1rem 0;
             padding: 1rem 1rem;
             display: flex;
@@ -111,31 +128,44 @@ main {
         }
 
         &__container {
-            display: grid;
-            place-items: center;
+            @include centering();
 
             &--circle {
                 width: 20rem;
                 height: 20rem;
                 border-radius: 50%;
-                background: salmon;
+                background: $black;
                 //background: conic-gradient(#ff0 50%, #bada55 50%);
-                display: grid;
-                place-items: center;
+                @include centering();
             }
             &--center {
                 width: 18rem;
                 height: 18rem;
                 border-radius: 50%;
-                background: #1C262F;
+                background: $black-top;
+                font-size: 2.5rem;
+                @include centering();
             }
         }
     }
 
 }
 
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(206, 204, 204);
+    width: 100%;
+
+    a {
+        color: #fff;
+        //text-decoration-style: wavy;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
 @keyframes runner {
-    0%      {transform: rotate(-5deg) translateX(-150%);}
-    80%     {transform: rotate(-5deg) translateX(10%);}
-    100%    {transform: rotate(-5deg) translateX(0%);}
+    0%      {transform: rotateY(180deg) translateX(250%);}
+    100%    {transform: rotateY(180deg) translateX(0%);}
 }
